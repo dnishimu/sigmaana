@@ -1,0 +1,13 @@
+Usage of sigmaana 
+(0) Prepare merge_$BEAM_C.root and merge_$BEAM_E.root in treefiles
+(1) Execute
+ ./bin/Batch_Sigma_calc.sh NUCLIDE BEAM LABEL
+for example  ./bin/Batch_Sigma_calc.sh "42Ca" "41Ca" "1"
+  in sigmaana directory
+
+(2) If you would like to execute multiple calculation 
+./bin/Multi_Sigma_calc_$BEAM.sh LABEL 
+
+[option]
+When you prepare spe_NUCLIDE_BEAM_C.root and spe_NUCLIDE_BEAM_E.root
+you can use  ./bin/Batch_Sigma_calc_spe.sh NUCLIDE BEAM LABEL

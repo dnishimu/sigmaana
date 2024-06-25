@@ -1,0 +1,8 @@
+
+
+void ID(){
+
+  if(gFile->IsOpen()){
+   fetch(gFile->GetName());   
+  }
+}
